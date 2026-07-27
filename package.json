@@ -1,0 +1,23 @@
+{
+  "name": "iti-bedrock-gateway-adapter",
+  "version": "1.0.0",
+  "description": "Use the ITI Student Bedrock Gateway with OpenAI-compatible clients.",
+  "type": "module",
+  "main": "src/server.mjs",
+  "scripts": {
+    "start": "node src/server.mjs",
+    "test": "node --test",
+    "check": "node --check src/server.mjs && node --check src/adapter.mjs && npm test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "keywords": [
+    "iti",
+    "bedrock",
+    "openai-compatible",
+    "openclaude",
+    "opencode"
+  ]
+}

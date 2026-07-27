@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: iti-bedrock-gateway-adapter
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
+    autoDeploy: true
